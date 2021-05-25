@@ -1,41 +1,33 @@
 <!-- Please do not change this logo with link -->
-[![MCHP](images/microchip.png)](https://www.microchip.com)
+[![MCHP](AVR128DA48/images/microchip.png)](https://www.microchip.com)
 
-# Update the title for avrdx-motor-control-pim-mplab-mcc here
+# Sensorless BLDC Motor Control for AVR® Microcontrollers
 
-<!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
+This repository contains the firmware and schematic for the AVR® Motor Control Plug-In Module (PIM) described in the [AN3998 - Sensorless BLDC Motor Control for AVR® Microcontrollers Application Note](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1006125). 
+It contains three folders, two with the firmware for the two PIM variants and the auxiliary files, and one with the schematic for the PIM. 
+
+* [<strong>AVR128DA48 folder:</strong>](AVR128DA48) - contains the firmware, excel file for configuring parameters and the json file for the MPLAB® Data Visualizer plug-in workspace
+* [<strong>AVR128DB48 folder:</strong>](AVR128DB48) - contains the firmware, excel file for configuring parameters and the json file for the MPLAB Data Visualizer plug-in workspace
+* [<strong>Hardware folder:</strong>](Hardware) - contains the schematic for the PIM
 
 ## Related Documentation
 
-<!-- Any information about an application note or tech brief can be linked here. Use unbreakable links!
-     In addition a link to the device family landing page and relevant peripheral pages as well:
-     - [AN3381 - Brushless DC Fan Speed Control Using Temperature Input and Tachometer Feedback](https://microchip.com/00003381/)
-     - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family) -->
+- [AN3998 - Sensorless BLDC Motor Control for AVR® Microcontrollers](https://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en1006125)
+- [AVR128DA48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DA48)
+- [AVR128DA48 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=avr128da48)
+- [AVR128DA48 Project Examples in START](https://start.atmel.com/#examples/AVR128DA48CuriosityNano)
+- [AVR128DB48 Product Page](https://www.microchip.com/wwwproducts/en/AVR128DB48)
+- [AVR128DB48 Code Examples on GitHub](https://github.com/microchip-pic-avr-examples?q=avr128db48)
+- [AVR128DB48 Project Examples in START](https://start.atmel.com/#examples/AVR128DB48CuriosityNano)
 
 ## Software Used
-
-<!-- All software used in this example must be listed here. Use unbreakable links!
-     - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-     - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-     - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - Microchip PIC18F-Q Series Device Support (1.4.109) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/) -->
+- MPLAB® X IDE 5.40 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
+- MPLAB® XC8 2.20 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
+- MPLAB® Code Configurator (MCC) 4.0.2 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- MPLAB® Code Configurator (MCC) Device Libraries 8-bit AVR® MCUs 2.5.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
+- AVR DX 1.6.88 or newer Device Pack
 
 ## Hardware Used
-
-<!-- All hardware used in this example must be listed here. Use unbreakable links!
-     - PIC18F47Q10 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-     - Curiosity Nano Base for Click boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
-     - POT Click board™ [(MIKROE-3402)](https://www.mikroe.com/pot-click) -->
-
-## Setup
-
-<!-- Explain how to connect hardware and set up software. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
-
-## Operation
-
-<!-- Explain how to operate the example. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
-
-## Summary
-
-<!-- Summarize what the example has shown -->
+- [MCLV-2](https://www.microchip.com/developmenttools/ProductDetails/PartNo/DM330021-2?utm_source=MicroSolutions&utm_medium=Article&utm_content=DevTools&utm_campaign=StandAlone)
+- AVR-Dx PIM
+- [PICKit4](https://www.microchip.com/developmenttools/ProductDetails/PG164140)

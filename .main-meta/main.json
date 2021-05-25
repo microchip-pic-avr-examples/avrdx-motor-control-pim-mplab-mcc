@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avrdx-motor-control-pim-mplab-mcc",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "AVR Dx Motor Control PIM",
         "projectName": "avrdx-motor-control-pim-mplab-mcc",
         "shortDescription": "This repository contains the source code for a motor control application using a Plug In Module PIM based on the AVR128DA48 or AVR128DB48 microcontrollers from the AVR DA and AVR DB families",
         "ide": {
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^1.6.88"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": "^4.0.2"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -36,10 +36,10 @@
                 "versionRange": "*"
             }
         },
-        "author": "Leona Pop",
+        "author": "Microchip",
         "subcategories": [],
         "peripherals": [],
-        "keywords": [],
+        "keywords": ["Motor Contol", "PIM"],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
