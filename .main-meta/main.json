@@ -37,8 +37,10 @@
             }
         },
         "author": "Microchip",
-        "subcategories": [],
-        "peripherals": [],
+        "subcategories": [
+          ["Peripherals", "TCB"]
+        ],
+        "peripherals": ["TCB"],
         "keywords": ["Motor Contol", "PIM"],
         "additionalData": {
             "longDescription": {
