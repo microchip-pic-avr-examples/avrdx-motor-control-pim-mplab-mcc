@@ -1,3 +1,3 @@
-Only the schematic for the PIM is provided in this repo. 
+This folder provides the schematic and the Gerber files for the PIM. 
 
-If more information about the hardware is required, please contact https://www.microchip.com/support.
+For more information about the hardware, contact https://www.microchip.com/support. 

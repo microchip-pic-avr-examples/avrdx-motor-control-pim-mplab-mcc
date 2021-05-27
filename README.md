@@ -8,7 +8,7 @@ It contains three folders, two with the firmware for the two PIM variants and th
 
 * [<strong>AVR128DA48 folder:</strong>](AVR128DA48) - contains the firmware, excel file for configuring parameters and the json file for the MPLAB® Data Visualizer plug-in workspace
 * [<strong>AVR128DB48 folder:</strong>](AVR128DB48) - contains the firmware, excel file for configuring parameters and the json file for the MPLAB Data Visualizer plug-in workspace
-* [<strong>Hardware folder:</strong>](Hardware) - contains the schematic for the PIM
+* [<strong>Hardware folder:</strong>](Hardware) - contains the schematic and Gerber files for the PIM
 
 ## Related Documentation
 
